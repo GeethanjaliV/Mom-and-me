@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #ffe6e6;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #ffe6e6;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+.navbar-header{
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar-header  a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar-header a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+  </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" color="ff9999">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Mom & Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Baby</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ESSENTIAL TOPICS<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Your Baby Week By Week</a></li>
+            <li><a href="#">Baby Health</a></li>
+            <li><a href="#">Breast Feeding</a></li>
+            <li><a href="#">Daily Care</a></li>
+            <li><a href="#">Your Baby's Growth</a></li>
+            <li><a href="#">Baby Sleep</a></li>
+          </ul>
+        </li><li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">TOP RESOURES<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">New Born Care</a></li>
+            <li><a href="#">Baby Development</a></li>
+            <li><a href="#">Shopping For Your Baby</a></li>
+            <li><a href="#">Starting Solid Foods</a></li>
+            <li><a href="#">Vaccines And Immunisations</a></li>
+            <li><a href="#">Baby Safety</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MOST POPULAR<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"> Massage Techniques for baby</a></li>
+            <li><a href="#">Foods To Increase Breastmilk</a></li>
+            <li><a href="#">Your Baby's Milestones</a></li>
+            <li><a href="#">7 Resons Why Babies Cry</a></li>
+            <li><a href="#">Helping Baby Sleep Well</a></li>
+            <li><a href="#">Baby Poo:What's Normal</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1 style="cooper">BABY CARE</h1>
+      <h3 style="cooper">A new baby is like the begining of all things </h3>                                                                                              <h3> - wonder , hope , a dream of possibility</h3>
+<img src="38.jpg" width="400" height="300">
+<img src="b4.jpg" width="400" height="300">
+<div class="container">
+  <h2>TRACK YOUR BABY'S DEVELOPMENT</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">JOIN NOW!</button>
+
+ <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title">TRACK YOUR BABY'S DEVELOPMENT</h2>
+        </div>
+        <div class="modal-body">
+        <br>
+          <p>Join now to receive weekly articles ,advice and update customized for you .</p>
+          <br>
+          <h3>Enter Your Due Date On Child's Birthday</h3>
+          <br>
+          <h4 style="font-size:100%"><strong>  DATE OF BIRTH:</strong></h4>
+<input type="date" style="font-size:100%;font-family:Lucida bright"></input>
+<br>
+          <h3>Enter Your Email Address<h3><br>
+          <div class="form-group">
+
+<label class="col-lg-4 control-label"><b>E-MAIL</b></label>
+
+<div class="col-lg-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+<input name="email" placeholder="E-Mail Address" class="form-control" type="text"></input>
+</div>
+</div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <hr>
+      <h3>Becoming a parent is one of the life's biggest joy and responsibility.Doing all you can do to prepare now, before your baby is born, will make transistion to parenthood much easier</h3><br>
+
+      <h3>There are no seven wonders of the world in the eyes of the child. There are seven million.</h3>
+
+    </div>
+    
+    <table style="width:100%">
+<tr>
+    <td><img src="11.jpg " width="450" height="400"></td>
+ <td><img src="a.jpg " width="250" height="200"></td>
+    <td><img src="4.jpg " width="450" height="400"></td>
+
+   
+  </tr>
+    </table>
+<br>
+    
+<table style="width:100%">
+<tr>
+    <td><img src="10.jpg " width="668" height="450"></td>
+    <td><img src="12.jpg " width="668" height="450"></td>
+   
+  </tr>
+</table>
+<br>
+<br>
+<table style="width:100%">
+  <tr>
+    <td><img src="15.jpg " width="450" height="400"></td>
+    <td><img src="5.jpg" width="450" height="400"></td>
+    <td><img src="6.jpg " width="450" height="400"></td>
+  </tr>
+</table>
+<br>
+
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>

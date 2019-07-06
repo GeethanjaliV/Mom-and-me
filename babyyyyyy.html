@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#ff66b3;
+
+    }
+
+    
+  .carousel-inner img {
+      width: 90%; /* Set width to 100% */
+      margin: auto;
+      min-height:120px;
+      
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+
+    }
+  }
+  </style>
+</head>
+<body  style="background-color:#ffe6e6">
+<nav class="navbar navbar-inverse" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" color="ffe6e6">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Mom & Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Baby</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ESSENTIAL TOPICS<span class="caret"></span></a>
+          <ul class="dropdown-menu" style="color:#000000">
+            <li><a href="#" style="color:#000000">Your Baby Week By Week</a></li>
+            <li><a href="#" style="color:#000000">Baby Health</a></li>
+            <li><a href="#" style="color:#000000">Breast Feeding</a></li>
+            <li><a href="#" style="color:#000000">Daily Care</a></li>
+            <li><a href="#" style="color:#000000">Your Baby's Growth</a></li>
+            <li><a href="#">Baby Sleep</a></li>
+          </ul>
+        </li><li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">TOP RESOURES<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">New Born Care</a></li>
+            <li><a href="#">Baby Development</a></li>
+            <li><a href="#">Shopping For Your Baby</a></li>
+            <li><a href="#">Starting Solid Foods</a></li>
+            <li><a href="#">Vaccines And Immunisations</a></li>
+            <li><a href="#">Baby Safety</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MOST POPULAR<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"> Massage Techniques for baby</a></li>
+            <li><a href="#">Foods To Increase Breastmilk</a></li>
+            <li><a href="#">Your Baby's Milestones</a></li>
+            <li><a href="#">7 Resons Why Babies Cry</a></li>
+            <li><a href="#">Helping Baby Sleep Well</a></li>
+            <li><a href="#">Baby Poo:What's Normal</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="b4.jpg" alt="Image">
+        <div class="carousel-caption">
+                <h3>Becoming a parent is one of the life's biggest joy and responsibility.Doing all you can do to prepare now, before your baby is born, will make transistion to parenthood much easier</h3>
+      
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="11.jpg" alt="Image">
+        <div class="carousel-caption">
+       
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container text-center" background-color="#ffe6e6">    
+  <h3>A NEW BABY IS LIKE THE BEGINNING OF ALL THINGS</h3>
+<h3 align="center">-WONDER ,HOPE, A DREAM OF POSSIBILITY</h3><br>    
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="9.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Benifits of new born baby massage</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="4.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>First foods for your baby</p>    
+    </div>
+    <div class="col-sm-4">
+      <div class="well">
+       <img src="13.jpg " width="250" height="200">
+<p>Baby sleep consultant</p>
+      </div>
+</div>
+</div>
+
+<div class="container">
+  <h2 >TRACK YOUR BABY'S DEVELOPMENT</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"  align="center">JOIN NOW!</button>
+
+ <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title">TRACK YOUR BABY'S DEVELOPMENT</h2>
+        </div>
+        <div class="modal-body">
+        <br>
+          <p>Join now to receive weekly articles ,advice and update customized for you .</p>
+          <br>
+          <h3>Enter Your Due Date On Child's Birthday</h3>
+          <br>
+          <h4 style="font-size:100%"><strong>  DATE OF BIRTH:</strong></h4>
+<input type="date" style="font-size:100%;font-family:Lucida bright"></input>
+<br>
+          <h3>Enter Your Email Address<h3><br>
+          <div class="form-group">
+
+<label class="col-lg-4 control-label"><b>E-MAIL</b></label>
+
+<div class="col-lg-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+<input name="email" placeholder="E-Mail Address" class="form-control" type="text"></input>
+</div> 
+</div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div><br>
+    
+<table style="width:100%">
+<tr>
+    <td><img src="10.jpg " width="668" height="450"></td>
+    <td><img src="12.jpg " width="668" height="450"></td>
+   
+  </tr>
+</table>
+<br>
+<br>
+<table style="width:100%">
+  <tr>
+    <td><img src="15.jpg " width="450" height="400"></td>
+    <td><img src="5.jpg" width="450" height="400"></td>
+    <td><img src="6.jpg " width="450" height="400"></td>
+  </tr>
+</table>
+
+</body>
+</html>
